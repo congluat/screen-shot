@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: InterShoot
+Bundle-SymbolicName: InterShoot
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: intershoot.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,
+ jgoodies-forms-1.8.0.jar
+Import-Package: com.jgoodies.forms.builder,
+ com.jgoodies.forms.debug,
+ com.jgoodies.forms.factories,
+ com.jgoodies.forms.layout,
+ com.jgoodies.forms.util
